@@ -65,7 +65,7 @@ public class GPS : MonoBehaviour
         }
 
         // Stop service if there is no need to query location updates continuously
-        Input.location.Stop();
+        //Input.location.Stop();
     }
 
 
