@@ -35,7 +35,7 @@ public class GPS : MonoBehaviour
             yield break;
 
         // Start service before querying location
-        Input.location.Start(5, 10);
+        Input.location.Start(5f, 10f);
 
         // Wait until service initializes
         int maxWait = 20;
